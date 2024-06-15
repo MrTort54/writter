@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>practic</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="wrap">
+            <h1 id="start__title">
+                Check your typing level and improve it with us)
+            </h1>
+            <div class="score">
+                <div class="score__good" id="goodScore">0</div>
+                <div class="score__bad" id="badScore">0</div>
+            </div>
+            <div class="board" id="board"></div>
+            <button id="start__btn">start writing</button>
+            <button id="end__btn">end writing</button>
+
+            <div class="popUp__bg">
+                <div class="popUp">
+                    <div class="popUp__stat">
+                        <div class="popUp__stats">
+                            <h2 class="stats">Your results:</h2>
+                            <h2 class="statsGood" id="statsGood"></h2>
+                            <h2 class="statsBad" id="statsBad">0</h2>
+                        </div>
+                        <div class="popUp__img"></div>
+                    </div>
+                    <button class="popUp__btn" id="closePopUp__btn">
+                        close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="main.js"></script>
+</html>
